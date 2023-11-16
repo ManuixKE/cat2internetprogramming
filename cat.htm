@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Kiprotich Emmanuel</title>
+    <style>
+        body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4285f4;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kiprotich Emmanuel</h1>
+        <p>Welcome to my journey</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#" onclick="showSection('home')">Home</a></li>
+            <li><a href="#" onclick="showSection('childhood')">Childhood</a></li>
+            <li><a href="#" onclick="showSection('education')">Education</a></li>
+            <li><a href="#" onclick="showSection('skills')">Skills and Talents</a></li>
+            <li><a href="#" onclick="showSection('aspirations')">Future Aspirations</a></li>
+            <li><a href="#" onclick="showSection('contact')">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        
+        <h2>About Me</h2>
+        <p>
+            Hello! I'm Kiprotich Emmanuel, a passionate individual with diverse interests. 
+            This website is a glimpse into my life journey, from childhood to my aspirations for the future.
+        </p>
+    
+    </section>
+
+    
+    <section id="childhood" style="display: none;">
+        <h2>Childhood Memories</h2>
+        <p>
+            Growing up, I had the privilege of experiencing a loving and supportive family environment. 
+            Some of my fondest memories include watching kids tv with my friends and playing with them all the times.
+            
+        </p>
+    </section>
+
+    
+    <section id="education" style="display: none;">
+        <h2>Education</h2>
+        <p>
+            I pursued my education with enthusiasm, achieving notable milestones along the way.
+            Currently at Zetech University pursuing my carreer in Information Technology.
+            I completed my high school education from Cheptenye High.
+            Went to Imara Academy for my primary school studies.
+        </p>
+    </section>
+
+    
+    <section id="skills" style="display: none;">
+        <h2>Skills and Talents</h2>
+        <p>
+            Over the years, I've developed a diverse set of skills and discovered various talents.
+            I am a skilled table teniss player of which I played in high school upto national level and have several certificates for the same.
+        </p>
+    </section>
+
+    
+    <section id="aspirations" style="display: none;">
+        <h2>Future Aspirations</h2>
+        
+            <p>Looking ahead, my aspirations include...
+            </p>
+        <p>1.Nature:</p>
+
+    <p>The beauty of landscapes, flora, and fauna.</p>
+<p>The changing seasons and natural phenomena.</p>
+<p>2.Art and Creativity:</p>
+
+<p>Paintings, sculptures, literature, and other forms of artistic expression.</p>
+<p>Creative works of others that evoke emotions or new ideas.</p>
+
+<p>3.People:</p>
+
+<p>Role models and mentors who have achieved success in a particular field.</p>
+<p>Stories of perseverance and triumph over challenges.</p>
+
+<p>4.Quotes:</p>
+
+<p>Words of wisdom and motivation from philosophers, leaders, or influential figures.</p>
+
+<p>5.Books and Literature:</p>
+
+<p>Novels, essays, or poetry that offer new perspectives or insights.</p>
+<p>Self-help books that provide guidance and encouragement.</p>
+
+<p>6.Music:</p>
+
+<p>Lyrics and melodies that resonate emotionally or convey powerful messages.</p>
+<p>Musicians and composers who inspire with their talent and creativity.</p>
+
+<p>7.Travel:</p>
+
+<p>Experiencing new cultures, meeting diverse people, and exploring different environments.</p>
+<p>Seeing historical landmarks and architectural marvels.</p>
+
+<p>8.Personal Experiences:</p>
+
+<p>Overcoming personal challenges and learning from setbacks.</p>
+<p>Moments of joy, love, and personal growth.</p>
+
+<p>9.Technology and Innovation:</p>
+
+<p>Discoveries and advancements in science and technology.</p>
+<p>Innovative solutions to complex problems.</p>
+
+<p>10.Spirituality and Religion:</p>
+
+<p>Religious texts and teachings that provide guidance and purpose.</p>
+<p>Spiritual experiences and reflections.</p>
+
+<p>11.Movies and Documentaries:</p>
+
+<p>Compelling stories and characters that provoke thought and emotion.</p>
+<p>Documentaries that showcase real-life achievements and struggles.</p>
+
+<p>12.Social Causes:</p>
+
+<p>Advocacy for social justice, environmental sustainability, and humanitarian efforts.</p>
+<p>Stories of individuals making a positive impact on society.</p>
+
+        
+    </section>
+
+    
+    <section id="contact" style="display: none;">
+        <h2>Contact Information</h2>
+        <p>
+            Feel free to reach out to me through email or social media. I'd love to connect!
+            <ul>
+                <li>Email: <a href="mailto:manuixkson@gmail.com">manuixkson@gmail.com</a></li>
+                <li>Twitter: <a href="https://x.com/manuix_ke?s=09" target="_blank">Twitter</a></li>
+                <li>Instagram: <a href="https://instagram.com/manuixke?igshid=MzMyNGUyNmU2YQ==" target="_blank">Instagram</a></li>
+                <li>Facebook: <a href="https://www.facebook.com/profile.php?id=100086061236075" target="_blank">Facebook</a></li>
+                
+            </ul>
+        </p>
+    </section>
+    <script>
+        function showSection(sectionId) {
+            
+            var sections = document.querySelectorAll('section');
+            sections.forEach(function (section) {
+                section.style.display = 'none';
+            });
+    
+            
+            var selectedSection = document.getElementById(sectionId);
+            if (selectedSection) {
+                selectedSection.style.display = 'block';
+            }
+        }
+    </script>
+    <footer>
+        <p>Contact me: manuixkson@gmail.com</p>
+        <p>All rigths reserved</p>
+    </footer>
+</body>
+</html>
